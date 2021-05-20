@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", "Verdana", Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    width: 100%;
+    line-height: 100px;
+    background-color: #f5ab13;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    padding-left: 50px;
+    /* box-shadow: 5px 3px 15px -5px rgba(0,0,0,0.5);  */
+}
+
+.header h1{
+    background: transparent; 
+    font-size: 3rem; 
+    color:black;
+    margin: 10px 0px 10px 10px; 
+    /* min-width:64px;
+    box-sizing: border-box; */
+    padding: 6px 0px 2px 0; 
+    
+    /* font-weight: 1500;
+    border-radius: 4px;  */
+    letter-spacing: 0.02857em;
+    /* text-transform: uppercase;  */
+    /* width: 100%; */
+    /* box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3); */
+  } 
+
+  .footer {
+    background-color: #f5ab13;
+    font-size: 1.5rem; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    margin: 10px 0px 10px 10px; 
+    padding: 6px 0px 2px 0; 
+}
+
+.main_note{
+    width: 500px;
+    padding: 15px 10px 5px 10px;
+    margin: 20px auto;
+}
+
+.my_notes h1{
+    color: #34495e;
+}
+
+.my_notes p{
+    color: grey;
+}
+
+form {
+    position: relative;
+    color: #ecf0f1;
+    padding: 15px 10px 5px 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
+    border-radius: 10%;
+    min-width: 50px;
+}
+
+input {
+    width: 100%;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+textarea {
+    width: 100%;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+
+.MuiButton-root{
+    width: 30px;
+    height: 50px;
+    position: relative;
+    bottom: -28px;
+    left: 400px;
+    cursor: pointer;
+    background-color: #fff !important;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
+    border-radius: 50% !important;
+}
+
+.MuiButton-root .plus_sign{
+    font-size: 45px;
+    font-weight: 900;
+    color: #f4b400;
+    cursor: pointer;
+    z-index: 222;
+    background: transparent;
+}
+
+.MuiButton-root:hover {
+     background: #f4b400 !important;
+}
+
+
+.MuiButton-root:hover .plus_sign{
+    color: #fff;
+    background: transparent;
+}
+
+.note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+}
+
+
+.note h1{
+    font-size: 1.1em;
+    margin-bottom: 6px;
+}
+
+.note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.note .btn{
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #f4b400;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 3px 15px -10px rgba(0,0,0,0.5);
+    border-radius: 50%;
+}
+
+.deleteIcon {
+    width: 0.7em;
+    height: 0.7em;
+}
+
+.note .btn:hover{
+    background-color: #f5ba13;
+}
+
+.note .btn:hover .deleteIcon{
+    background-color: #fff;
+}
+
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

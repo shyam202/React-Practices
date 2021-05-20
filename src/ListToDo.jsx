@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 import DeleteIcon from '@material-ui/icons/Delete';
 
-
-
 const ListToDo = (props) => {
     const [line, setLine] = useState(false);
-    
-    
+       
     const cutIt = () => {
         setLine(true);
     }  
